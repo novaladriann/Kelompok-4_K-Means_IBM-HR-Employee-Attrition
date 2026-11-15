@@ -1,34 +1,34 @@
 Nama kolom,Arti,Satuan,Tipe ditetapkan,Peran,Catatan mutu
-Age,Usia karyawan,tahun,numerik bulat,fitur,tidak ada nilai hilang
-Attrition,Apakah karyawan keluar (Yes/No),-,kategori,bahan penafsiran,tidak ada nilai hilang
-BusinessTravel,Frekuensi perjalanan dinas,-,kategori,bahan penafsiran,tidak ada nilai hilang
-DailyRate,Tarif harian (arti tepat belum jelas di sumber),-,numerik,dibuang dari fitur,tidak ada nilai hilang
-Department,Departemen,-,kategori,bahan penafsiran,tidak ada nilai hilang
-DistanceFromHome,Jarak rumah ke kantor,satuan sumber (mil/km: cek sumber),numerik bulat,fitur,tidak ada nilai hilang
-Education,Jenjang pendidikan (1–5),kode ordinal,ordinal,bahan penafsiran,tidak ada nilai hilang
-EducationField,Bidang pendidikan,-,kategori,bahan penafsiran,tidak ada nilai hilang
-EmployeeNumber,Nomor karyawan,-,identifier,identifier,tidak ada nilai hilang
-EnvironmentSatisfaction,Kepuasan lingkungan kerja (1–4),skor,ordinal,fitur,tidak ada nilai hilang
-Gender,Jenis kelamin,-,kategori,bahan penafsiran,tidak ada nilai hilang
-HourlyRate,Tarif per jam (arti belum jelas),-,numerik,dibuang dari fitur,tidak ada nilai hilang
-JobInvolvement,Keterlibatan kerja (1–4),skor,ordinal,fitur,tidak ada nilai hilang
-JobLevel,Jenjang jabatan (1–5),kode ordinal,ordinal,bahan penafsiran,tidak ada nilai hilang
-JobRole,Peran pekerjaan,-,kategori,bahan penafsiran,tidak ada nilai hilang
-JobSatisfaction,Kepuasan kerja (1–4),skor,ordinal,fitur,tidak ada nilai hilang
-MaritalStatus,Status pernikahan,-,kategori,bahan penafsiran,tidak ada nilai hilang
-MonthlyIncome,Pendapatan bulanan,mata uang sumber,numerik bulat,fitur,tidak ada nilai hilang
-MonthlyRate,Arti tidak jelas di sumber,-,numerik,dibuang dari fitur,tidak ada nilai hilang
-NumCompaniesWorked,Jumlah perusahaan tempat bekerja sebelumnya,buah,numerik bulat,fitur,tidak ada nilai hilang
-OverTime,Lembur (Yes/No),-,kategori biner,sumber OverTime_Yes,tidak ada nilai hilang
-PercentSalaryHike,Persentase kenaikan gaji terakhir,%,numerik bulat,"dibuang dari fitur (r 0,77 dg PerformanceRating)",tidak ada nilai hilang
-PerformanceRating,Penilaian kinerja (3–4),kode ordinal,ordinal,dibuang dari fitur,tidak ada nilai hilang
-RelationshipSatisfaction,Kepuasan hubungan kerja (1–4),skor,ordinal,tidak dipakai,tidak ada nilai hilang
-StockOptionLevel,Level opsi saham (0–3),kode ordinal,ordinal,tidak dipakai,tidak ada nilai hilang
-TotalWorkingYears,Total lama bekerja,tahun,numerik bulat,fitur,tidak ada nilai hilang
-TrainingTimesLastYear,Frekuensi pelatihan tahun lalu,kali,numerik bulat,tidak dipakai,tidak ada nilai hilang
-WorkLifeBalance,Keseimbangan kerja-hidup (1–4),skor,ordinal,fitur,tidak ada nilai hilang
-YearsAtCompany,Lama bekerja di perusahaan,tahun,numerik bulat,fitur,tidak ada nilai hilang
-YearsInCurrentRole,Lama di peran saat ini,tahun,numerik bulat,dibuang dari fitur (redundan),tidak ada nilai hilang
-YearsSinceLastPromotion,Lama sejak promosi terakhir,tahun,numerik bulat,fitur,tidak ada nilai hilang
-YearsWithCurrManager,Lama dengan manajer saat ini,tahun,numerik bulat,dibuang dari fitur (redundan),tidak ada nilai hilang
-OverTime_Yes,"Penanda lembur 1=ya, 0=tidak",-,biner,fitur,tidak ada nilai hilang
+Age,Usia karyawan,tahun,numerik bulat,fitur,tidak ada nilai hilang pada pemeriksaan awal
+Attrition,Status keluar (Yes/No),-,kategori,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+BusinessTravel,Frekuensi perjalanan dinas,-,kategori,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+DailyRate,Nilai DailyRate; definisi bisnis belum jelas,belum terverifikasi,numerik,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+Department,Departemen,-,kategori,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+DistanceFromHome,Jarak tempat tinggal dari kantor,belum terverifikasi,numerik bulat,fitur,tidak ada nilai hilang pada pemeriksaan awal
+Education,Tingkat pendidikan,kode ordinal 1-5,ordinal,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+EducationField,Bidang pendidikan,-,kategori,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+EmployeeNumber,Nomor karyawan,-,identifier,identifier,tidak ada nilai hilang pada pemeriksaan awal
+EnvironmentSatisfaction,Kepuasan lingkungan kerja,skor 1-4,ordinal,fitur,tidak ada nilai hilang pada pemeriksaan awal
+Gender,Jenis kelamin,-,kategori,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+HourlyRate,Nilai HourlyRate; definisi bisnis belum jelas,belum terverifikasi,numerik,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+JobInvolvement,Keterlibatan kerja,skor 1-4,ordinal,fitur,tidak ada nilai hilang pada pemeriksaan awal
+JobLevel,Tingkat jabatan,kode ordinal 1-5,ordinal,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+JobRole,Jenis pekerjaan,-,kategori,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+JobSatisfaction,Kepuasan kerja,skor 1-4,ordinal,fitur,tidak ada nilai hilang pada pemeriksaan awal
+MaritalStatus,Status pernikahan,-,kategori,bahan interpretasi,tidak ada nilai hilang pada pemeriksaan awal
+MonthlyIncome,Pendapatan bulanan,mata uang belum terverifikasi,numerik bulat,fitur,tidak ada nilai hilang pada pemeriksaan awal
+MonthlyRate,Nilai MonthlyRate; definisi bisnis belum jelas,belum terverifikasi,numerik,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+NumCompaniesWorked,Jumlah perusahaan tempat bekerja,perusahaan,numerik bulat,fitur,tidak ada nilai hilang pada pemeriksaan awal
+OverTime,Status lembur,-,kategori biner,sumber fitur turunan,tidak ada nilai hilang pada pemeriksaan awal
+PercentSalaryHike,Persentase kenaikan gaji,%,numerik bulat,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+PerformanceRating,Penilaian kinerja,kode ordinal,ordinal,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+RelationshipSatisfaction,Kepuasan hubungan kerja,skor 1-4,ordinal,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+StockOptionLevel,Tingkat opsi saham,kode ordinal,ordinal,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+TotalWorkingYears,Total lama bekerja,tahun,numerik bulat,fitur,tidak ada nilai hilang pada pemeriksaan awal
+TrainingTimesLastYear,Jumlah pelatihan tahun lalu,kali,numerik bulat,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+WorkLifeBalance,Keseimbangan kerja dan kehidupan,skor 1-4,ordinal,fitur,tidak ada nilai hilang pada pemeriksaan awal
+YearsAtCompany,Lama bekerja di perusahaan,tahun,numerik bulat,fitur,tidak ada nilai hilang pada pemeriksaan awal
+YearsInCurrentRole,Lama bekerja pada posisi saat ini,tahun,numerik bulat,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+YearsSinceLastPromotion,Lama sejak promosi terakhir,tahun,numerik bulat,fitur,tidak ada nilai hilang pada pemeriksaan awal
+YearsWithCurrManager,Lama bekerja dengan manajer saat ini,tahun,numerik bulat,tidak dipakai,tidak ada nilai hilang pada pemeriksaan awal
+OverTime_Yes,"Indikator lembur, 1=Yes, 0=No",-,biner,fitur,tidak ada nilai hilang pada pemeriksaan awal
