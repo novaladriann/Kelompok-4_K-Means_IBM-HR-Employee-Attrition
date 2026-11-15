@@ -1,10 +1,10 @@
 
 # Proyek Akhir Pembelajaran Mesin — Kelompok 4
 
-**Mata Kuliah:** Pembelajaran Mesin (INF62325)
-**Program Studi:** Informatika
-**Kelas:** 5B
-**Paket Dataset:** 5B-4 — IBM HR Employee Attrition
+**Mata Kuliah:** Pembelajaran Mesin (INF62325)    
+**Program Studi:** Informatika  
+**Kelas:** 5B  
+**Paket Dataset:** 5B-4 — IBM HR Employee Attrition  
 **Metode:** K-Means Clustering
 
 ## 1. Deskripsi Proyek
