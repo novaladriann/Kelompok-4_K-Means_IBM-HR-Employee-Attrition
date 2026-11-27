@@ -1,0 +1,88 @@
+{
+  "varian": 2,
+  "nama": "Validasi k (Silhouette Score)",
+  "yang_diubah": "Jumlah klaster ditentukan dari Silhouette tertinggi",
+  "fitur_dipakai": [
+    "Age",
+    "MonthlyIncome",
+    "TotalWorkingYears",
+    "YearsAtCompany",
+    "YearsSinceLastPromotion",
+    "NumCompaniesWorked",
+    "DistanceFromHome",
+    "JobSatisfaction",
+    "EnvironmentSatisfaction",
+    "WorkLifeBalance",
+    "JobInvolvement",
+    "OverTime_Yes"
+  ],
+  "k_terpilih": 2,
+  "k_menurut_elbow": 5,
+  "berbeda_dari_elbow": true,
+  "penjelasan_perbedaan": "Kedua varian berbeda. Elbow mengukur seberapa rapat anggota terhadap pusat klasternya sendiri, sedangkan Silhouette juga memperhitungkan jarak ke klaster tetangga. Inertia selalu turun saat k bertambah, sehingga titik sikunya bergantung pada bentuk kurva, bukan pada mutu pemisahan. Pada k=5 Silhouette bernilai 0.1126, selisih 0.0877 dari nilai tertinggi di k=2. Perlu dicatat, Silhouette sering memuncak di k=2 karena dua klaster paling mudah dipisahkan, padahal dua segmen jarang berguna untuk pengambilan keputusan.",
+  "tafsiran": "struktur klaster hampir tidak ada, pilihan fitur perlu ditinjau",
+  "metrik_utama": {
+    "silhouette": 0.2003
+  },
+  "baris_silhouette_negatif": 83,
+  "metrik_pendukung": {
+    "inertia": 14665.11,
+    "davies_bouldin": 2.0103
+  },
+  "tabel_k": [
+    {
+      "k": 2,
+      "inertia": 14665.109,
+      "silhouette": 0.2003,
+      "davies_bouldin": 2.0103
+    },
+    {
+      "k": 3,
+      "inertia": 13535.9412,
+      "silhouette": 0.1274,
+      "davies_bouldin": 2.2982
+    },
+    {
+      "k": 4,
+      "inertia": 12651.3222,
+      "silhouette": 0.1123,
+      "davies_bouldin": 2.3654
+    },
+    {
+      "k": 5,
+      "inertia": 11924.1317,
+      "silhouette": 0.1126,
+      "davies_bouldin": 2.2237
+    },
+    {
+      "k": 6,
+      "inertia": 11429.4561,
+      "silhouette": 0.1168,
+      "davies_bouldin": 2.1732
+    },
+    {
+      "k": 7,
+      "inertia": 10972.7867,
+      "silhouette": 0.1114,
+      "davies_bouldin": 2.0701
+    },
+    {
+      "k": 8,
+      "inertia": 10654.5781,
+      "silhouette": 0.0951,
+      "davies_bouldin": 2.0666
+    },
+    {
+      "k": 9,
+      "inertia": 10385.1358,
+      "silhouette": 0.103,
+      "davies_bouldin": 2.1239
+    },
+    {
+      "k": 10,
+      "inertia": 10134.1784,
+      "silhouette": 0.0933,
+      "davies_bouldin": 2.1189
+    }
+  ]
+}
